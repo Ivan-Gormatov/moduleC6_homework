@@ -1,0 +1,61 @@
+
+
+body{
+    width: 750px;
+}
+
+main {
+ 
+    width: 90%;
+  }
+  .chat {
+    width: 90%;
+    height: 500px;
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: medium;
+    border-color: #bad7ec;
+    overflow-y: auto; 
+  }
+  
+  .message {
+    width: 300px;
+    margin: 10px 5px;
+    padding: 10px 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: medium;
+    border-color: #bad7ec;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .inpt {
+    width: 47%;
+    margin: 0px 0px;
+    padding: 8px 5px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #bad7ec;
+    
+  }
+  .inpt:focus {   
+     outline-color: #bad7ec;
+  }
+  .btn {
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    margin: 0px 0px;
+    padding: 11px 15px;
+    
+   
+  
+    background: #bad7ec;
+  }
+ a {
+    text-decoration: none;
+ } 
